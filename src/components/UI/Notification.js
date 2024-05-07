@@ -1,12 +1,12 @@
-import classes from './Notification.module.css';
+import classes from "./Notification.module.css";
 
 const Notification = (props) => {
-  let specialClasses = '';
+  let specialClasses = "";
 
-  if (props.status === 'error') {
+  if (props.status === "error") {
     specialClasses = classes.error;
   }
-  if (props.status === 'success') {
+  if (props.status === "success") {
     specialClasses = classes.success;
   }
 

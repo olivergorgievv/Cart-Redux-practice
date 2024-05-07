@@ -1,8 +1,8 @@
-import { useDispatch } from 'react-redux';
+import { useDispatch } from "react-redux";
 
-import { cartActions } from '../../store/cart-slice';
-import Card from '../UI/Card';
-import classes from './ProductItem.module.css';
+import { cartActions } from "../../store/cart-slice";
+import Card from "../UI/Card";
+import classes from "./ProductItem.module.css";
 
 const ProductItem = (props) => {
   const dispatch = useDispatch();
@@ -17,7 +17,7 @@ const ProductItem = (props) => {
         price,
       })
     );
-    };
+  };
 
   return (
     <li className={classes.item}>
